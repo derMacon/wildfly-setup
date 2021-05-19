@@ -491,11 +491,8 @@
 						</connection-definition>
 					</connection-definitions>
 					<admin-objects>
-						<admin-object class-name="org.apache.activemq.command.ActiveMQQueue" jndi-name="java:/queue/XMLPublishQueue" enabled="true" use-java-context="true" pool-name="XMLPublishQueue">
-							<config-property name="PhysicalName">XMLPublishQueue</config-property>
-						</admin-object>
-						<admin-object class-name="org.apache.activemq.command.ActiveMQQueue" jndi-name="java:/queue/SupportTasksQueue" enabled="true" use-java-context="true" pool-name="SupportTasksQueue">
-							<config-property name="PhysicalName">SupportTasksQueue</config-property>
+						<admin-object class-name="org.apache.activemq.command.ActiveMQQueue" jndi-name="java:/jms/queue/ip-queue" enabled="true" use-java-context="true" pool-name="jms/queue/ip-queue">
+							<config-property name="PhysicalName">jms/queue/ip-queue</config-property>
 						</admin-object>
 					</admin-objects>
 				</resource-adapter>
